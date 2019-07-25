@@ -1,9 +1,9 @@
 desc 'outputs hello to the terminal'
 
-task :hello do
+greeting :hello do
   puts "hello from Rake!"
 end
 
-take :hola do
+greeting :hola do
   puts "Hola de Rake!"
 end
