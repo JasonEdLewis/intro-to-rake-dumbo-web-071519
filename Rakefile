@@ -13,7 +13,7 @@ end
 namespace :db do
   desc 'mkigrate changes to your database'
   task :migrate => :environment do
-      student.create_table
+      students.create_table
     end
   task :environment do
   require_relative './config/environment'
