@@ -3,4 +3,6 @@ greeting :hello do
   puts "hello from Rake!"
 end
 
-
+greeting : do
+  puts "hello from Rake!"
+end
