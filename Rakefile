@@ -11,7 +11,7 @@ desc 'outputs hello to the terminal'
 end
 
 namespace :db do
-  desc 'mkigrate changes to your database'
+  desc 'migrate changes to your database'
   task :migrate => :environment do
       student.create_table
     end
